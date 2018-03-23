@@ -14,7 +14,7 @@
 # Data and Files
 # data/*
 # data/simpsons/*
-simpsons/**
+data/simpsons/**
 *.pdf
 
 # /*moes_tavern_
