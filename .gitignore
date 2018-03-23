@@ -1,0 +1,53 @@
+# echo "# tv-script-generation" >> README.md
+# git init
+# touch .gitignore
+# git add -A
+# git commit -m "first commit"
+# git remote add origin https://github.com/prfrl/tv-script-generation.git
+# git push -u origin master
+
+## Refresh .gitignore cache
+# git rm -r --cached .
+
+
+
+# Data and Files
+data/*
+*.pdf
+
+**/*save.data-*
+*save.data-*
+
+.git/*
+
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# RStudio, knitr and markdown
+*.knit.md
+.Rhistory
+
+*.DS_Store
+*.pyc
+*.swp
+temp/*
+dist/*
+build/*
+keras/datasets/data/*
+keras/datasets/temp/*
+docs/site/*
+docs/theme/*
+docs/sources/*
+tags
+Keras.egg-info
+examples/img/*
+
+# test-related
+.coverage
+.cache
+*_cache
+
+# developer environments
+.idea
+.vscode
