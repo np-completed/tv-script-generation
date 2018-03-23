@@ -15,7 +15,7 @@
 # data/*
 # data/simpsons/**  # Removes directory /data/simpsons
 # /data/simpsons/moes_tavern_lines.txt
-/data/simpsons/.txt
+/data/simpsons/*.txt
 
 # *.pdf
 
