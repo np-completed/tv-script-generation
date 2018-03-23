@@ -13,7 +13,7 @@
 
 # Data and Files
 # data/*
-data/simpsons/**
+data/simpsons/*.txt
 *.pdf
 
 **/*save.data-*
