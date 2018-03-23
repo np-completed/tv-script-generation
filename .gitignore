@@ -12,7 +12,7 @@
 
 
 # Data and Files
-data/*
+data/*.txt
 *.pdf
 
 **/*save.data-*
