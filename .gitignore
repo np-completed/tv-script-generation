@@ -13,11 +13,11 @@
 
 # Data and Files
 # data/*
-# data/simpsons/*
-data/simpsons/**
-*.pdf
+# data/simpsons/**  # Removes directory /data/simpsons
 
-# /*moes_tavern_
+# *.pdf
+
+moes_tavern_lines.txt
 
 **/*save.data-*
 *save.data-*
