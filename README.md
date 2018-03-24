@@ -12,5 +12,11 @@ The data is available at links posted above.  I use a subset of the original dat
 
 For more detailed list of python packages the requirements file is accurate (ha ha maybe, good luck). TensorFlow is a new technology so expect changes regularly, i.e. every week this model will need some updates. To avoid problems and show repeatibility of results I used a very stable version of TensorFlow and Keras. This model is not very good but provides the essential techniques for generating a tv script.  Any queries seeking detailed instructions for reproduceabilty precision will be discarded and immediately passed around for a laugh. 
 
+## Getting Project Files
+
+git clone https://github.com/udacity/deep-learning.git
 
 
+Stay up to date with any changes we make by pulling the changes to your local repository with git pull.
+
+Package the "dlnd_tv_script_generation.ipynb", "helper.py", "problem_unittests.py", and the HTML file into a zip archive, or push the files from your GitHub repo.

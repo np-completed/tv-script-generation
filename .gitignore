@@ -14,14 +14,16 @@
 # Data and Files
 # data/*
 # data/simpsons/**  # Removes directory /data/simpsons
-# /data/simpsons/moes_tavern_lines.txt
-/data/simpsons/**.txt
 
 # *.pdf
 
 
 **/*save.data-*
 *save.data-*
+*save.*
+*notebook.*
+*params.*
+*preprocess.*
 
 .git/*
 
@@ -29,9 +31,7 @@
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# RStudio, knitr and markdown
-*.knit.md
-.Rhistory
+
 
 *.DS_Store
 *.pyc
