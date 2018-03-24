@@ -19,4 +19,27 @@ git clone https://github.com/udacity/deep-learning.git
 
 Stay up to date with any changes we make by pulling the changes to your local repository with git pull.
 
+source activate tf_tvScript		## Activate anaconda environment
+jupyter notebook				## open jupyter notebook
+
+
+## GitHub 
+##
+`echo "# tv-script-generation" >> README.md`  
+`git init`
+`touch .gitignore`
+`git add -A`
+`git commit -m "first commit"`
+
+**Only need `remote add` for the first time connecting to git**   
+`git remote add origin https://github.com/prfrl/tv-script-generation.git `
+
+`git push -u origin master`
+
+**Refresh .gitignore cache**  Do not forget period at end of cached.  
+`git rm -r --cached .`
+
+
+### Submitting Project to Udacity
+
 Package the "dlnd_tv_script_generation.ipynb", "helper.py", "problem_unittests.py", and the HTML file into a zip archive, or push the files from your GitHub repo.
