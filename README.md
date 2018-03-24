@@ -14,10 +14,10 @@ For more detailed list of python packages the requirements file is accurate (ha 
 
 ## Getting Project Files
 
-Clone project:  
+**Clone project:**    
 `git clone https://github.com/udacity/deep-learning.git`  
 
-Stay up to date with any changes we make by pulling the changes to your local repository with git pull.
+Stay up to date with any changes we make by pulling the changes to your local repository with `git pull`.
 
 **Activate anaconda environment**   
 `source activate tf_tvScript`    
@@ -26,7 +26,9 @@ Stay up to date with any changes we make by pulling the changes to your local re
 
 
 ## GitHub 
-##
+
+Save changes for version control.   
+
 `echo "# tv-script-generation" >> README.md`  
 `git init`
 `touch .gitignore`
