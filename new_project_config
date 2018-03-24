@@ -12,7 +12,10 @@ git init
 touch .gitignore
 git add -A
 git commit -m "first commit"
-git remote add origin https://github.com/prfrl/tv-script-generation.git
+
+## only need remote add one time
+git remote add origin https://github.com/prfrl/tv-script-generation.git 
+
 git push -u origin master
 
 ## Refresh .gitignore cache
