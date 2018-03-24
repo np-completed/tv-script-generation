@@ -10,6 +10,15 @@
 # git rm -r --cached .
 
 
+## Remove temporarily for Udacity submission
+## Restore after grade received
+*notebook.*
+*params.*
+*preprocess.*
+*checkpoint*
+*dlnd_tv_script_generation_original*
+*new_project_*
+
 
 # Data and Files
 # data/*
@@ -21,9 +30,6 @@
 **/*save.data-*
 *save.data-*
 *save.*
-*notebook.*
-*params.*
-*preprocess.*
 
 .git/*
 
